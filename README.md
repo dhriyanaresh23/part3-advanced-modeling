@@ -43,9 +43,10 @@ part3-advanced-modeling/
 - Python
 - Pandas
 - NumPy
+- Matplotlib
 - Scikit-learn
 - Joblib
-- Matplotlib
+- Jupyter Notebook
 
 ## Dependencies
 
@@ -483,6 +484,8 @@ The objective of this task is to save the best-performing machine learning pipel
 The best pipeline obtained from **GridSearchCV** was serialized using the `joblib` library and saved as **`best_model.pkl`**.
 
 The saved model was then reloaded using `joblib.load()`, and predictions were generated on two sample test rows to verify that the model was successfully restored and functioned correctly.
+
+- Serialized model file (`best_model.pkl`)
 
 ### Results
 
