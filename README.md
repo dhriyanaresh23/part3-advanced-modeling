@@ -31,9 +31,7 @@ This project focuses on advanced machine learning techniques to improve classifi
 ```
 part3-advanced-modeling/
 │
-├── outputs/
 ├── best_model.pkl
-├── cleaned_data.csv
 ├── part3_advanced_modeling.ipynb
 └── README.md
 ```
